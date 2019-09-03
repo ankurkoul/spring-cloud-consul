@@ -1,0 +1,7 @@
+Why consul--->no need to setup separat Eureka server and no additional eureka con fig in properties required
+
+After downloading consul server andadding it to PATH environment variable
+
+consul agent -server  -bootstrap-expect=1 -data-dir=consul-data -ui -bind=<ur ip address>
+
+you can access consul UI--->on http://localhost:8500
